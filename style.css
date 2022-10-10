@@ -1,0 +1,141 @@
+*{
+    font-family: 'Poppins', sans-serif;
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.heading{
+    width: auto;
+    height: 50px;
+    display: flex;
+    color: black;
+    justify-content: center;
+}
+.container{
+    margin: 50px;
+    width: auto;
+    height: 500px;
+    background-image:url(./Masterhead\(web\).svg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+.container p {
+
+    margin: 20px;
+    padding: 20px;
+}
+.container button{
+    width: 200px;
+    height: 30px;
+    /* align-content: center; */
+    margin-left: 500px;
+    margin-top: 300px;
+    background-color: aqua;
+    border: 2px solid aqua;
+    border-radius: 5px;
+    color: black;
+}
+/* que-2 */
+
+.container2{
+    width: auto;
+    height: 250px;
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.container2 img{
+ width: 100px;
+ height: 100px;
+ border-radius: 50%;
+ margin-left: 20px;
+ padding: 50px;
+}
+.navitem{
+    margin-right: 100px;
+    padding:50px;
+}
+.navitem .item{
+    /* padding: 20px; */
+    /* margin: 50px 20px ; */
+    width: 80px;
+    background-color: aqua;
+    border: 2px solid aqua;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+}
+/* que 21 */
+
+.cards{
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.cards .card{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(141, 54, 27);
+    font-size: 20px;
+    text-align: center;
+    padding-top: 200px;
+    margin: 20px;
+}
+@media only screen and (min-width:300px) and (max-width:600px){
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+/* Que:-22 */
+.btn{
+    margin: 20px;
+}
+.btnn{
+    background-color: aqua;
+    border: 2px solid aqua;
+    border-radius:8px;
+    margin-left: 100px;
+}
+@media only screen and (min-width:300px) and (max-width:600px){
+    .btnn{
+        background-color: blue;
+        border: 2px solid blue;
+        color: white;
+    }
+}
+@media only screen and (min-width: 700px) and (max-width: 1050px){
+    .buttn{
+               background-color: royalblue;
+    }
+   
+   }
+/* Ans23 */
+
+.flex-container {
+    width: 1000px;
+    height: 400px;
+    padding: 40px;
+    margin: 40px;
+    background-color: yellow;
+    color: red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: start;
+    align-content: space-around;
+}
+.flex-items {
+    background-color: aqua;
+    padding: 10px;
+    margin: 20px;
+    width: 200px;
+    height: 100px;
+}
